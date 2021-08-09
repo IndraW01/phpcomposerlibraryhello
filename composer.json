@@ -1,0 +1,19 @@
+{
+  "name": "indrawijaya/phpcomposerlibraryhello",
+  "description": "Belajar PHP Composer Library Hello",
+  "type": "library",
+  "authors": [
+    {
+      "name": "indraW01",
+      "email": "indraakmal08@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ProgrammerZamanNow\\Belajar\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
